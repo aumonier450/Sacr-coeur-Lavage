@@ -30,6 +30,7 @@ class _splashv extends State<splashv> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
         body: Container(
       child: Column(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
