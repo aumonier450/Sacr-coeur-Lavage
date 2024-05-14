@@ -10,6 +10,8 @@ import 'package:image_picker/image_picker.dart';
 
 import 'connexion.dart';
 import 'maps.dart';
+import 'nav.dart';
+import 'reservation.dart';
 
 class inscrire extends StatefulWidget {
   @override
@@ -65,7 +67,7 @@ class _inscrire extends State<inscrire> {
         },
       );
     } else {
-      Navigator.push(context, MaterialPageRoute(builder: (context) => Carte()));
+      Navigator.push(context, MaterialPageRoute(builder: (context) => Navbar()));
     }
     // Continuer avec la requête HTTP
     final response = await http.post(
